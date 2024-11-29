@@ -1,0 +1,424 @@
+/* global values */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alegreya" ,sans-serif;
+  color: white;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+ width: 80%;
+ height: 100%;
+ padding: 80px;
+ margin: 0 auto;
+}
+h2{
+  font-size: 30px;
+  font-weight: 200;
+  color: #000;
+}
+p{
+  color:#686868;
+}
+/* ########################## end global values ################### */
+
+
+.home-page{
+  background: url(./images/drew-coffman-1872.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+  /* display: inline-block */
+  
+  overflow: hidden;
+}
+nav{
+  box-sizing: border-box;
+  width: 100%;
+  height: 10%;
+  padding: 10px 80px;
+  position: relative;
+}
+nav span{
+  background-color: #8E7754;
+  display: inline-block;
+  width: 75px;
+  height: 3px;
+  position: absolute;
+  top: 0;
+  left: 67%;
+}
+.logo{
+  /* background-color: black; */
+  float: left;
+}
+nav ul{
+  float: right;
+  padding-top: 15px;
+  margin-right: 5px;
+}
+nav ul li{
+  display: inline-block;
+  /* vertical-align: middle; */
+  font-size: 18px;
+  margin-right: 25px;
+
+}
+nav li a{
+  transition: color 0.5s;
+
+}
+
+nav li a:hover{
+  color: #8E7754;
+}
+.first-li{
+  color: white;    
+}
+/* ######################   clear */
+
+.clear-fix{
+  clear: both;
+}
+
+.info{
+  text-align: center;
+  width: 600px;
+  height: 50%;
+  margin: 180px auto 0 auto;
+  position: relative;
+  
+}
+.info p{
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 400;
+  text-wrap: wrap;
+  color: white;
+}
+.info h1{
+  font-size: 80px;
+  font-weight: 400;
+}
+.info button{
+  padding: 12px 17px;
+  text-align: center;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 18px;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.info .btn-1{
+  background-color: #8E7754;
+  border: none; 
+  margin-right: 8px;
+}
+.info .btn-2{
+  border: 2px solid white;
+}
+.info div{
+  background-color: transparent;
+  width: 30px;
+  height: 60px;
+  border-radius: 15px;
+  border: 2px solid white;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+}
+.info div div{
+  width: 10px;
+  height: 10px;
+  display: block;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px auto;
+  transform: translate(5px, -23px);
+}
+
+
+
+/* #######################   end of home page */
+
+
+/* ####################  sec 1 */
+.sec-1{
+  width: 70%;
+  height: 600px;  
+  margin: 80px auto;
+  background-color: white;
+}
+.sec-1 .img{
+  float: left;
+}
+.sec-1 .content-sec1{
+  margin-top: 50px;
+  float: right;
+  width: 50%;
+}
+.content-sec1 h2{
+  font-size: 30px;
+  font-weight: 300;
+  margin: 10px 0;
+  color: black;
+}
+.content-sec1 p{
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 1.9;
+  color: #5E5C54;
+}
+.sec-1 ul li{
+  color: #5E5C54;
+  margin: 5px auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+.sec-1 ul li img{
+  border: 2px solid  #ECECEC;
+  border-radius: 50%;
+}
+.sec-1 li p{
+  display: inline-block;
+}
+
+
+/* #####################      start sec 2 */
+.sec-2{
+  /* background-color: #F8F8F8; */
+  background-color: #ECECEC;
+  margin-top: -30px;
+  width: 100%;
+  height: 600px;
+}
+
+
+
+.sec-2 .container img{
+  float: right;
+}
+
+.sec-2 .details {
+  width: 50%;
+  float: left;
+  padding: 20px;
+
+}
+.sec-2 .details h2 ,
+.sec-2 .details p {
+  margin: 30px 0;
+}
+
+.sec-2 .details h2{
+  color: black;
+  font-size: 30px;
+  font-weight: 200;
+}
+.sec-2 .details p{
+  color: #686868;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+/* ################   start sec-3 */
+
+.sec-3{
+  width: 100%;
+  height: 800px;
+  text-align: center;
+}
+.sec-3 .container h2,
+.sec-3 .container p{
+  margin: 0 0 30px 0 ;
+
+}
+.sec-3 .container {
+  padding-top: -20px;
+}
+.sec-3 .cards{
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.sec-3 .cards .card{
+  float: left;
+  text-align: center;
+  overflow: hidden;
+  width: 30%;
+  height: 80%;
+}
+.sec-3 .cards img{
+  width: 100%;
+}
+.sec-3 .card h3{
+  font-size: 24px;
+  font-weight: 200;
+  margin-bottom: 10px;
+  color: #000;
+}
+.sec-3 .card p{
+  color: #686868;
+
+}
+
+
+/* ################   start sec-4 */
+
+.sec-4{
+  width: 100%;
+  height: 600px;
+  /* background-color:  magenta; */
+  background-color: #ECECEC;
+  
+  
+}
+.sec-4 .sec4-details{
+  float: left;
+  width: 50%;
+
+}
+.sec-4 .sec4-details h2,
+.sec-4 .sec4-details p,
+.sec-4 .sec4-details ul{
+
+  margin-bottom: 30px;
+
+}
+.sec-4 .sec4-details li{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #686868;
+  margin-bottom: 20px;
+}
+.sec-4 .sec4-details li img{
+  border: 1px solid #686868;
+  background-color: #8E7754;
+  border-radius: 50%;
+}
+
+.sec-4 .googleMapImage{
+  float: right;
+}
+
+
+/* ########################## last section
+ */
+
+
+.sec-5{
+  background-color: #403D38;
+  width: 100%;
+  height: 500px;
+  
+}
+.sec-5 p{
+  font-size: 16px;
+}
+.informations{
+  display: flex;
+  justify-content: space-around;
+}
+.informations h3{
+  font-size: 24px;
+  font-weight: 200;
+  color: white;
+  margin-bottom: 30px;
+}
+.informations .info-1{
+  width: 20%;
+  
+
+}
+
+.informations  p{
+  color: #C6C6C3;
+  line-height: 2;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid  #686868; 
+}
+/* .informations .info-1 p::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #C6C6C3
+
+} */
+.informations .info-4{
+  width: 20%;
+}
+.informations .info-4 div{
+  background-image: url(./images/contact-details-map.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #C6C6C3;
+  width: 100%; 
+  height: 80%;
+}
+
+.informations .info-4 li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  border-bottom: 1px solid  #686868;
+  padding-bottom: 10px;
+  color: #C6C6C3;
+
+}
+footer{
+  background-color: #353330;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+footer .links{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+footer .links a{
+  width: 40px;
+  height: 40px; 
+  border-radius: 50%;
+  background-color: #47443F;
+}
+footer .links a img{
+  width: 40px;
+}
+footer .links .facebookIcon:hover{
+  background-color: #375492;
+  transition: 0.5s ease-in-out;
+  /* color: white;    ده علي اساس انها ايقون مش صورة😂 */
+}
+footer .links .googleIcon:hover{
+  background-color: #F00 ;
+  transition: 0.5s ease-in-out;
+}
+footer .links .linkedinIcon:hover{
+  background-color: #3d84c2;
+  transition: 0.5s ease-in-out;
+}
+footer .links .twitterIcon:hover{
+  background-color: #1381e0 ;
+  transition: 0.5s ease-in-out;
+}
